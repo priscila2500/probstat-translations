@@ -55,7 +55,8 @@ language, say German, please follow these steps.
         git add probstat-german.dict
         git commit -a -m 'Add a German dictionary.'
 
-5.  Create a pull request so that I can integrate your translation.
+5.  [Create a pull request][pull request] so that I can integrate your
+    translation.
 
 Tweaking Existing Translations
 ==============================
@@ -66,9 +67,10 @@ improvements, you have two options.
 1.  [Open a new issue][new issue] and contact the maintainer of the
     corresponding language to discuss the changes.
 
-2.  Open a pull request and contact the maintainer(s). Once the maintainer(s)
-    give green light, I pull in the changes.
+2.  [Create a pull request][pull request] and contact the maintainer(s). Once
+    the maintainer(s) give green light, I pull in the changes.
 
 [cookbook]: http://matthias.vallentin.net/probability-and-statistics-cookbook
 [translator]: http://www.bakoma-tex.com/doc/latex/translator/
 [new issue]: https://github.com/mavam/probstat-translations/issues/new
+[pull request]: https://github.com/mavam/probstat-translations/pull/new/master
