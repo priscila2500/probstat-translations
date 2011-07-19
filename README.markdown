@@ -24,11 +24,11 @@ language, say German, please follow these steps.
 
 1. Fork the repository and create a new branch with the language name:
 
-    git checkout -b german
+       git checkout -b german
 
 2. Create a new file `probstat-german.dict` based on `probstat-english.dict`:
 
-    cp probstat-{english,german}.dict
+       cp probstat-{english,german}.dict
 
 3. Make your changes. A dictionary consists of lines of key-value pairs, where
    the key is the immutable unique English identifier for a text snippet and
@@ -55,8 +55,8 @@ language, say German, please follow these steps.
 
 4. Add the new file to the repository:
 
-    git add probstat-german.dict
-    git commit -a -m 'Add a German dictionary.'
+       git add probstat-german.dict
+       git commit -a -m 'Add a German dictionary.'
 
 5. Create a pull request so that I can integrate your translation.
 
